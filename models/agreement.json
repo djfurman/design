@@ -1,0 +1,49 @@
+{
+    "agreement": {
+        "order_identifier": "string",
+        "release_identifier": "string",
+        "effective_date": "string",
+        "total_value": "number"
+    },
+    "party_list": [{
+        "role": "string",
+        "location_type": "string",
+        "location_details": {}
+    }],
+    "fund_list": [{
+        "fiscal_system_of_record_identifier": "string",
+        "fiscal_system_of_record_lookup": "string",
+        "fund_type": "string",
+        "fund_detail": {},
+        "fund_amount": "number",
+        "fund_alias_type": "string",
+        "fund_alias_id": "string"
+    }],
+    "reference_list": [{
+        "reference_type": "string",
+        "reference_id": "string"
+    }],
+    "term_list": [{
+        "term_type": "string",
+        "term_detail": {}
+    }],
+    "item_list": [{
+        "item_identifier": "string",
+        "quantity": "number",
+        "unit_cost": "number",
+        "fund_list": [{
+            "fund_alias": "string",
+            "amount": "number"
+        }],
+        "terms_list": [{
+            "authority_type": "string",
+            "authority_detail": {}
+        }],
+        "schedule_list": [{
+            "date": "string",
+            "quantity": "number",
+            "location_type": "string",
+            "location_detail": {}
+        }]
+    }]
+}
